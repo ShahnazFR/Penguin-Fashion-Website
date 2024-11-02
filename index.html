@@ -17,12 +17,19 @@
 <body>
     <header class="bg-[#FFFBF0]">
         <nav class="pt-12 flex justify-between w-10/12 max-w-7xl mx-auto">
-            <img class="w-72" src="./icons/logo.png" alt="">
-            <div class="space-x-14 text-[#3C3C3C] font-medium">
-                <a href="">Home</a>
-                <a href="">Product</a>
-                <a href="">About Us</a>
-                <a href="">Contact Us</a>
+            <div>
+                <img class="w-48 md:w-72 lg:w-72" src="./icons/logo.png" alt="">
+            </div>
+            <div class="contents md:contents lg:hidden">
+                <label for="menu-toggle">&#9776;</label>
+            </div>         
+            <div class="text-[#3C3C3C] font-medium hidden md:hidden lg:contents">
+                <div class="space-x-14">
+                    <a href="">Home</a>
+                    <a href="">Product</a>
+                    <a href="">About Us</a>
+                    <a href="">Contact Us</a>
+                </div>
             </div>
         </nav>
         <div
